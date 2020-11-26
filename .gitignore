@@ -1,0 +1,86 @@
+Skip to content
+Why GitHub? 
+Enterprise
+Explore 
+Marketplace
+Pricing 
+Search
+
+Sign in
+Sign up
+dotnet
+/
+core
+1.4k13.4k3.2k
+ Code Issues 237 Pull requests 12 Projects 0 Security Insights
+Join GitHub today
+GitHub is home to over 40 million developers working together to host and review code, manage projects, and build software together.
+
+core/.gitignore
+@pavinthan pavinthan Add jetbrains folder to .gitignore (#2320)
+718ec99 on 27 Feb 2019
+@richlander@geek@Petermarcu@pavinthan@terrajobst
+37 lines (32 sloc)  341 Bytes
+  
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+nupkg/
+
+# Visual Studio Code
+.vscode
+
+# Rider
+.idea
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Visual Studio 2015
+.vs/
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Whitebox/obj/Debug/netcoreapp2.2/Whitebox.assets.cache
+Whitebox/obj/Debug/netcoreapp2.2/Whitebox.csproj.CoreCompileInputs.cache
+Whitebox/obj/Debug/netcoreapp2.2/Whitebox.csproj.FileListAbsolute.txt
+Whitebox/obj/Debug/netcoreapp2.2/Whitebox.dll
+Whitebox/obj/Debug/netcoreapp2.2/Whitebox.pdb
+Whitebox/bin/Debug/netcoreapp2.2/Whitebox.pdb
+Whitebox/bin/Debug/netcoreapp2.2/Whitebox.dll
+Ready/bin/Debug/netstandard2.0/Ready.dll
+Ready/bin/Debug/netstandard2.0/Ready.pdb
+Ready/bin/Debug/netstandard2.0/publish/Ready.dll
+Ready/bin/Debug/netstandard2.0/publish/Ready.pdb
+Whitebox/bin/Debug/netcoreapp2.2/Whitebox.dll
+Whitebox/bin/Debug/netcoreapp2.2/Whitebox.pdb

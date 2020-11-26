@@ -1,0 +1,6 @@
+{
+    "appName":"batata", //nome da pasta e do arquivo
+    "appType":"unix-binary",
+    "invokeCommands":["comando1","comando2"],
+    "internalCommands":["comando para matar","neutralizar"] 
+}

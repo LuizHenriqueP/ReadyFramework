@@ -1,0 +1,62 @@
+roscore
+
+---
+em outra aba do terminal
+rostopic list = mostra os topicos q estao abertos, endpoints do ros\	\	\	\
+rqt = define velocidades, entre outros
+rviz = mostras as informações dos sensores 
+
+
+
+https://github.com/siemens/ros-sharp.git
+https://github.com/siemens/ros-sharp.wiki
+https://docs.microsoft.com/pt-br/aspnet/core/tutorials/first-web-api?view=aspnetcore-2.2&tabs=visual-studio
+http://wiki.ros.org/pt_BR/ROS/Tutorials/UnderstandingTopics
+https://dotnet.microsoft.com/download/linux-package-manager/ubuntu18-04/sdk-2.2.402
+
+
+
+sudo pm-hibernate
+
+
+STEPS TCC:
+Apenas na Primeira VEZ:\	
+sudo apt-get install ros-melodic-rosbridge-server
+mkdir -p catkin_ws/src
+cd src/
+catkin_make
+copia td q esta DENTRO da pasta ROS no projeto do git, para a pasta catkin_ws/src
+catkin_make
+
+no arquivo /home/helena/Desktop/catkin_ws/src/unity_simulation_scene/launch/unit\	simulation_scene.launch
+Criar um novo parametro : <param name="address" value="localhost"/>
+
+\	salva
+catkin_make
+source devel/setup.bash
+
+
+sudo chmod +x mouse_to_joy.py  = liberar permissao do mouse 
+sudo apt-get install python-xlib = libe\	rar permissao do mouse 
+
+roslaunch unity_simulation_scene unity_simulation_scene.launch  = Agora ele esta lendo o mouse
+
+-------\	-------------
+em outra aba no terminal: rqt
+no rqt: plugins/topics/Topics Monito/ joy (flag)
+-------
+
+
+
+STEPS
+FAZER SEMPRE
+na pasta do projeto abrar o terminal
+ dotnet build
+ dotnet run
+
+
+
+
+https://github.com/siemens/ros-sharp/wiki/User_Inst_TurtleBot2
+
+
